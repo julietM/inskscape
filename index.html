@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Galleria</title>
+    </head>
+    <style>
+    .wrapper{
+        border-radius: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 450px 450px 300px;
+        grid-template-rows:400px;
+        
+    }
+    @keyframes anim2 {
+    0%{transform: rotateY(350deg);}
+    50%{transform:rotateY(260deg);}
+    100%{transform: rotate(0deg);}
+    }
+    img{
+  
+        width: 400px;
+        height: 400px;
+        animation-name: anim2; 
+        animation-duration: 3s;
+      
+    }
+    p{
+        font-size: 50px;
+        text-align: center;
+        color:blueviolet;
+    }
+
+
+    </style>
+    <body>
+        <p>Inkscape SVG</p>
+        <div class="wrapper">
+            <img src="monta.svg"/>
+            <img src="manzana.svg"/>
+            <img src="gato.svg"/>
+            <img src="monta2.svg"/>
+            <img src="espejo.svg"/>
+            <img src="emo.svg"/>
+            <img src="jamon.svg"/>
+            <img src="camara.svg"/>
+            <img src="llevar.svg">
+        </div>
+    </body>
+</html>
